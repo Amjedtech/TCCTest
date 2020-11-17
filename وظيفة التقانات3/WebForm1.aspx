@@ -10,7 +10,6 @@
     <form id="form1" runat="server">
     <div style="text-align:center; background-color:aqua;">
         <asp:TextBox ID="txtFrom" runat="server"></asp:TextBox><br />
-        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox><br />
         <asp:TextBox ID="txtTo" runat="server"></asp:TextBox><br />
         <asp:Button ID="Move" runat="server" Text="Move"  OnClick="Move_Click"/>
     </div>
