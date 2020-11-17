@@ -5,10 +5,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <link href="StyleSheet1.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
-    <div style="text-align:center; background-color:aqua;">
+    <div style="text-align:center;">
         <asp:TextBox ID="txtFrom" runat="server"></asp:TextBox><br />
         <asp:TextBox ID="txtTo" runat="server"></asp:TextBox><br />
         <asp:Button ID="Move" runat="server" Text="Move"  OnClick="Move_Click"/>
