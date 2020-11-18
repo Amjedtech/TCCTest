@@ -15,5 +15,7 @@ namespace وظيفة_التقانات3
             string Age = Request.QueryString.Get("age");
             Label1.Text = "Your Name is : " + Name + "<br>Your Age is : " + Age;
         }
+
+     
     }
 }

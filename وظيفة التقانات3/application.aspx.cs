@@ -12,6 +12,12 @@ namespace وظيفة_التقانات3
         protected void Page_Load(object sender, EventArgs e)
         {
             Response.Write("The num of users online=" + Application["user"].ToString());
+           
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Application["user"] = (int)Application["user"] + 1;
         }
     }
 }

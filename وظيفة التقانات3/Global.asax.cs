@@ -31,7 +31,6 @@ namespace وظيفة_التقانات3
         {
 
         }
-
         protected void Application_Error(object sender, EventArgs e)
         {
 
